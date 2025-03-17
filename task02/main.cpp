@@ -8,7 +8,7 @@ int main() {
 	int** array = new int* [n];
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-			cin >> array[i][j];
+			cin >> array[i][j];//
 		}
 	}
 	int sum = sum_of_elements(array, n);
